@@ -1,11 +1,8 @@
 import { NowRequest, NowResponse } from '@vercel/node'
 import { MongoClient, Db } from 'mongodb'
 
-const client_id = 'b263019b332553f85c1b'
-const client_secret = '84899906e1594643c0154f59fe7ff27219895bcd'
-
-//const client_id = process.env.GITHUB_CLIENT_ID
-//const client_secret = process.env.GITHUB_CLIENT_SECRET
+const client_id = process.env.GITHUB_CLIENT_ID
+const client_secret = process.env.GITHUB_CLIENT_SECRET
 
 let cachedDb: Db = null
 
