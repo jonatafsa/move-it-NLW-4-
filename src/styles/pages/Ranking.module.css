@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container strong {
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+.container .spanLeaderbord {
+    width: 75%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+
+    display: flex;
+}
+
+.container .spanLeaderbord .spamOne {
+    width: 10%;
+    padding-left: 0.5rem;
+}
+
+.container .spanLeaderbord .spamTwo {
+    width: 63%;
+}
+
+.container .spanLeaderbord .spamThree {
+    width: 17%;
+}
+
+.container .spanLeaderbord .spamFour {
+    width: 10%;
+}
+
+.container .resultLeaderbord {
+    width: 75%;
+    padding-top: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .resultLeaderbord .positionLeaderboard {
+    width: 8%;
+    height: 3.5rem;
+    background: #FFF;
+    margin-right: 0.5rem;
+    border-radius: 5px 0 0 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .resultLeaderbord .userLeaderbord {
+    width: 63%;
+    height: 3.5rem;
+    background: #FFF;
+
+    display: flex;
+}
+
+.container .resultLeaderbord .userLeaderbord img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+}
+
+.container .resultLeaderbord .userLeaderbord .userLeaderbordDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .resultLeaderbord .userLeaderbord .userLeaderbordDetails span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.container .resultLeaderbord .userLeaderbord .userLeaderbordDetails p {
+    font-size: 0.9rem;
+}
+
+.container .resultLeaderbord .userLeaderbord .userLeaderbordDetails p img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.7rem;
+}
+
+.container .resultLeaderbord .challengesLeaderbord {
+    width: 17%;
+    height: 3.5rem;
+    background: #FFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.container .resultLeaderbord .challengesLeaderbord span {
+    font-weight: 600;
+    color: var(--blue);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.container .resultLeaderbord .expLeaderbord {
+    width: 10%;
+    height: 3.5rem;
+    background: #FFF;
+    border-radius: 0 5px 5px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.container .resultLeaderbord .expLeaderbord span {
+    font-weight: 600;
+    color: var(--blue);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}

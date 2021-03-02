@@ -1,0 +1,45 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 100%;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(242,243,245,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    padding: 1rem;
+}
+
+.container .navigation {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.container .navigation img {
+    width: 3.6rem;
+    padding: 0;
+
+    transition: width 0.2s;
+}
+
+.container .navigation img:hover {
+    width: 4rem;
+}
+
+.container .exit img {
+    width: 4rem;
+}
+
+.container .exit a {
+    cursor: pointer;
+}
